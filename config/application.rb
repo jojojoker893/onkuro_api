@@ -9,7 +9,7 @@ require "importmap-rails"
 Bundler.require(*Rails.groups)
 
 module OnkuroNew
-  class Application < Rails::Application
+  class Application < Rails::API
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.0
 
